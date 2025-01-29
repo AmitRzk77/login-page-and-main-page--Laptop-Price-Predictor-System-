@@ -6,7 +6,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);  // Manage login state
   const [signIn, toggle] = useState(true);  // Toggle between SignIn and SignUp
 
-  // Handle login by updating login state
+  
   const handleLogin = () => {
     console.log("Login successful!");  // Verify if this is called
     setIsLoggedIn(true);  // Update login state
