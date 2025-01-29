@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as Components from './Components';
+import * as Components from './components';
 import './style.css';
 
 function LoginPage({ signIn, toggle, onLogin }) {
