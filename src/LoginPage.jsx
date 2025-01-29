@@ -11,10 +11,10 @@ function LoginPage({ signIn, toggle, onLogin }) {
 
     console.log("Login attempt with:", email, password);  // Check credentials
 
-    // Hardcoded login credentials (you can replace this with actual authentication logic)
+    
     if (email === 'admin@example.com' && password === 'password') {
       console.log("Correct credentials");
-      onLogin();  // Call the onLogin function to signal successful login
+      onLogin();  
     } else {
       console.log("Invalid credentials");
       alert('Invalid credentials');

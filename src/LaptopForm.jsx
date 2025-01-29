@@ -10,6 +10,7 @@ const FormContainer = styled.div`
   border-radius: 10px;
   color: white;
   width: 1400px;
+  height: 768px;
   margin: 0 auto;
 `;
 
